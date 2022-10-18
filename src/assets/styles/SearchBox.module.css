@@ -1,0 +1,65 @@
+.formulario{
+  width: 100%;
+  min-width: 30rem;
+  
+  display: flex;
+  flex-direction: column;
+  padding-inline: 3rem;
+  padding-block: 2rem;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.subtitle{
+  color: gainsboro;
+}
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0 auto;
+}
+
+.input input{
+  width: 100%;
+  min-width: 40rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #ccc;
+}
+
+.buscar{
+  max-width: 20rem;
+  padding: 1.2rem 2rem;
+  border: 1px solid transparent;
+  background-color:blue;
+  color: white;
+  font-weight: 700;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.buscar:disabled{
+  user-select: none;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.cerrar{
+  max-width: 20rem;
+  padding: 1.2rem 2rem;
+  border: 1px solid transparent;
+  background-color:red;
+  color: white;
+  font-weight: 700;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.cerrar:hover{
+  background-color: transparent;
+  border: 1px solid red;
+  color: red;
+}
+
+

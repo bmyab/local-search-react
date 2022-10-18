@@ -1,0 +1,15 @@
+.list{
+  min-width: 30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+
+
+@media screen and (min-width:120rem){
+  .list{
+    height: 100%;
+  }
+}
+
